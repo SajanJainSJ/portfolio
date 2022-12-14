@@ -1,5 +1,5 @@
 import React from 'react';
-import SOCIAL_PROFILES from './data/socialProfiles';
+import SOCIAL_PROFILES from '../data/socialProfiles';
 
 const SocialProfile = props => {
     const { link, image } = props.socialProfile;
