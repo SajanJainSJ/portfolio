@@ -32,6 +32,7 @@ class Jokes extends Component {
             <div>
                 <h2>Highlighted Joke</h2>
                 <Joke joke={this.state.joke} />
+                <hr />
                 <h3>Want ten new jokes?</h3>
                 {this.state.displayJokes ? (
                     <>
