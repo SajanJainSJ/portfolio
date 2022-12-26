@@ -12,7 +12,7 @@ const PROJECTS = [
     },
     {
         id: 2,
-        title: 'Example React Application',
+        title: 'Shuffle and Sort',
         description: 'A React App that I build, involving JS and core web dev concepts!',
         link: 'https://github.com/SajanJainSJ/shuffle-and-sort-coding-exercise',
         image: project1
