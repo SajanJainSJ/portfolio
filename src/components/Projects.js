@@ -5,9 +5,9 @@ import PROJECTS from "../data/projects";
 const Project = (props) => {
     const { title, image, description, link } = props.project;
     return (
-        <div style={{ display: 'inline-block', width: 300, margin: 10 }}>
+        <div style={{ display: 'inline-block', width: 275, margin: 10 }}>
             <h3>{title}</h3>
-            <img src={image} alt='profile' style={{ width: 200, height: 120 }} />
+            <img src={image} alt='profile' style={{ width: 100, height: 100 }} />
             <p>{description}</p>
             <a href={link}>{link}</a>
         </div>

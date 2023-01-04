@@ -23,6 +23,13 @@ const PROJECTS = [
         description: 'This is a React project where you can Search an Artist and the preview the tracks.',
         link: 'https://github.com/SajanJainSJ/music-master',
         image: project2
+    },
+    {
+        id: 4,
+        title: 'Evens Or Odds Game Application',
+        description: 'This is a React project where you can play the game of cards to guess correctly.',
+        link: 'https://github.com/SajanJainSJ/evens-or-odds',
+        image: project1
     }
 ];
 
